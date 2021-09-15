@@ -1,0 +1,672 @@
+
+<html>
+    <head>
+        <title>
+            Travel
+        </title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+        <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+ 
+
+    </head>
+    <body>
+
+        <header>
+
+            <div class="menu_bar">
+                <i class="fas fa-bars"></i>
+            </div>
+            <a href="#" class="logo">
+                <span>T</span>
+                Ravel
+            </a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+              
+                
+                <a href="#review">review</a>
+               
+                <a href="#contact">Contact</a>
+
+            </nav>
+            <div class="icons">
+                <i class="fas fa-search" id="btnsearch"></i>
+                <i class="fas fa-user" id="user"></i>
+            </div>
+
+            <form action="" class="searchbar">
+                    <input type="text" placeholder="search" id="searchinput">
+                    <label><i class="fas fa-search" id="btnsearch"></i></label>
+            </form>
+        </header>
+
+        <!-- Login Form -->
+
+        <div class="login_form_container">
+            <i class="fas fa-times close"></i>
+            <form action="">
+                <h3>Login</h3>
+                <input type="text" placeholder="Email" class="email" />
+                <input type="password" placeholder="password" class="pass" />
+                <input type="submit" value="Login" class="btn" />
+              <input type="checkbox" id="remember" />
+              <label>Remamber me</label>
+              <p>Forget password <a href="#">click here</a></p>
+              <p>don't have an account <a href="#">Register Now</a></p>
+            </form>
+        </div>
+
+        <!-- Start Home section -->
+  <section class="home" id="home">
+      <div class="home_content">
+          <h3>Adventure is worthwhile</h3>
+          <p>discover new places with us,Adventure awaits</p>
+          <button class="btn" id="discover">discover more</button>
+      </div>
+
+      <div class="controls">
+          <span class="vid-btn active" data-src="./images/vid-1.mp4"></span>
+          <span class="vid-btn" data-src="./images/vid-2.mp4"></span>
+          <span class="vid-btn" data-src="./images/vid-3.mp4"></span>
+          <span class="vid-btn" data-src="./images/vid-4.mp4"></span>
+          <span class="vid-btn" data-src="./images/vid-5.mp4"></span>
+      </div>
+      <div class="video_container">
+          <video src="./images/vid-1.mp4" id="video-slider" loop autoplay muted ></video>
+      </div>
+  </section>
+
+        <!-- End Home Section -->
+
+        <!-- Book section -->
+
+        <section class="book" id="book">
+            <h1 class="heading">
+                <span>B</span>
+                <span>O</span>
+                <span>O</span>
+                <span >k</span>
+                <span class="space"></span>
+                <span>N</span>
+                <span>O</span>
+                <span>W</span>
+            </h1> 
+
+            <div class="row">
+                <div class="image">
+                    <img src="./images/book-img.svg" />
+                </div>
+                <form action="">
+                    <div class="inputbox">
+                        <h2>Where to</h2>
+                        <input type="text" placeholder="Place Name" />
+
+                    </div>
+                    <div class="inputbox">
+                        <h2>How many</h2>
+                        <input type="number" placeholder="Number of gustes" />
+                        
+                    </div>
+                    <div class="inputbox">
+                        <h2>arrivies</h2>
+                        <input type="date" />
+                        
+                    </div>
+                    <div class="inputbox">
+                        <h2>leaving</h2>
+                        <input type="date" />
+                        
+                    </div>
+                    <input type="submit" value="booknow" class="btn" />
+                </form>
+            </div>
+
+        </section>
+
+        <!-- End book section -->
+
+        <!-- Packages section -->
+        <section class="packages" id="packages">
+            <h1 class="heading">
+                <span>p</span>
+                <span>a</span>
+                <span>c</span>
+                <span >k</span>
+                <span class="space"></span>
+                <span>a</span>
+                <span>g</span>
+                <span>e</span>
+                <span>s</span>
+            </h1> 
+
+           <div class="boxes">
+
+               <div class="box">
+                   <img src="./images/p-1.jpg" />
+                   <div class="content">
+                       <h3><i class="fas fa-map-marker-alt"></i>mumbai</h3>
+                       <p>
+                        t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                       </p>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                        
+                       </div>
+                       <div class="price">
+                           90.00$ <span>120.00$</span>
+                       </div>
+                      <button class="btn">booknow</button>
+
+                   </div>
+               </div>
+
+               <div class="box">
+                <img src="./images/p-2.jpg" />
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>sydney</h3>
+                    <p>
+                     t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     
+                    </div>
+                    <div class="price">
+                        230.00$ <span>190.00$</span>
+                    </div>
+                    <button class="btn">booknow</button>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/p-3.jpg" />
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>huwaie</h3>
+                    <p>
+                     t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     
+                    </div>
+                    <div class="price">
+                        490.00$ <span>220.00$</span>
+                    </div>
+                    <button class="btn">booknow</button>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/p-4.jpg" />
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>paris</h3>
+                    <p>
+                     t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     
+                    </div>
+                    <div class="price">
+                        380.00$ <span>190.00$</span>
+                    </div>
+                    <button class="btn">booknow</button>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/p-5.jpg" />
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>tokyo</h3>
+                    <p>
+                     t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     
+                    </div>
+                    <div class="price">
+                        90.00$ <span>120.00$</span>
+                    </div>
+                    <button class="btn">booknow</button>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/p-6.jpg" />
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>egypt</h3>
+                    <p>
+                     t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     
+                    </div>
+                    <div class="price">
+                        90.00$ <span>120.00$</span>
+                    </div>
+                    <button class="btn">booknow</button>
+
+                </div>
+            </div>
+
+
+           </div>
+
+
+        </section>
+
+        <!-- Services -->
+
+        <section class="services" id="services">
+            <h1 class="heading">
+                <span>s</span>
+                <span>e</span>
+                <span>r</span>
+                <span >v</span>
+                <span class="space"></span>
+                <span>i</span>
+                <span>c</span>
+                <span>e</span>
+                <span>s</span>
+            </h1> 
+
+            <div class="boxesservices">
+
+                <div class="boxser">
+                    <i class="fas fa-hotel"></i>
+                    <h3>affordable hotels</h3>
+                    <p>
+                        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                    </p>
+
+                </div>
+
+                <div class="boxser">
+                    <i class="fas fa-utensils"></i>
+                    <h3>food and drinks</h3>
+                    <p>
+                        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                    </p>
+
+                </div>
+
+                <div class="boxser">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>safety gudies</h3>
+                    <p>
+                        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                    </p>
+
+                </div>
+
+                <div class="boxser">
+                    <i class="fas fa-globe-asia"></i>
+                    <h3>arround the world</h3>
+                    <p>
+                        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                    </p>
+
+                </div>
+
+                <div class="boxser">
+                    <i class="fas fa-plane"></i>
+                    <h3>fastest travels</h3>
+                    <p>
+                        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                    </p>
+
+                </div>
+                <div class="boxser">
+                    <i class="fas fa-hiking"></i>
+                    <h3>Adventure</h3>
+                    <p>
+                        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                    </p>
+
+                </div>
+
+            </div>
+            
+            <section>
+
+                <!-- Gallery section -->
+
+                <section class="gallery" id="gallery">
+
+                    <h1 class="heading">
+                        <span>g</span>
+                        <span>a</span>
+                        <span>l</span>
+                        <span >l</span>
+                        <span class="space"></span>
+                        <span>e</span>
+                        <span>r</span>
+                        <span>r</span>
+                        <span>y</span>
+                    </h1> 
+
+                  <div class="boxingcontent">
+
+                    <div class="boxing">
+                        <img src="./images/g-1.jpg" />
+                        <div class="content">
+                            <h2>amizing places</h2>
+                            <p>
+                             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                            </p>
+                            <button class="btn">see more</button>
+
+                        </div>
+                    </div>
+
+                    <div class="boxing">
+                        <img src="./images/g-2.jpg" />
+                        <div class="content">
+                            <h2>amizing places</h2>
+                            <p>
+                             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                            </p>
+                            <button class="btn">see more</button>
+
+                        </div>
+                    </div>
+
+                    <div class="boxing">
+                        <img src="./images/g-3.jpg" />
+                        <div class="content">
+                            <h2>amizing places</h2>
+                            <p>
+                             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                            </p>
+                            <button class="btn">see more</button>
+                        </div>
+                    </div>
+
+                    <div class="boxing">
+                        <img src="./images/g-4.jpg" />
+                        <div class="content">
+                            <h2>amizing places</h2>
+                            <p>
+                             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                            </p>
+                            <button class="btn">see more</button>
+                        </div>
+                    </div>
+
+                    <div class="boxing">
+                        <img src="./images/g-5.jpg" />
+                        <div class="content">
+                            <h2>amizing places</h2>
+                            <p>
+                             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                            </p>
+                            <button class="btn">see more</button>
+                        </div>
+                    </div>
+
+                    <div class="boxing">
+                        <img src="./images/g-6.jpg" />
+                        <div class="content">
+                            <h2>amizing places</h2>
+                            <p>
+                             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                            </p>
+                            <button class="btn">see more</button>
+                        </div>
+                    </div>
+
+                  </div>
+
+                </section>
+
+                <section class="review" id="review">
+                    <h1 class="heading">
+                        <span>r</span>
+                        <span>e</span>
+                        <span>v</span>
+                        <span >i</span>
+                        <span class="space"></span>
+                        <span>e</span>
+                        <span>w</span>
+                        
+                    </h1> 
+                    <div class="swiper mySwiper review-slider">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <img src="./images/pic1.png" />
+                                    <h3>john smith</h3>
+                                    <p>
+                                        . It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                                    </p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <img src="./images/pic2.png" />
+                                    <h3>john smith</h3>
+                                    <p>
+                                        . It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                                    </p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <img src="./images/pic3.png" />
+                                    <h3>john smith</h3>
+                                    <p>
+                                        . It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                                    </p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <img src="./images/pic4.png" />
+                                    <h3>john smith</h3>
+                                    <p>
+                                        . It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                                    </p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Conatct section  -->
+
+                <section class="contact" id="contact">
+                    <h1 class="heading">
+                        <span>c</span>
+                        <span>o</span>
+                        <span>n</span>
+                        <span >t</span>
+                        <span class="space"></span>
+                        <span>a</span>
+                        <span>c</span>
+                        <span>t</span>
+                        
+                    </h1> 
+
+                    <div class="row">
+                        <div class="image">
+                            <img src="./images/contact-img.svg" />
+                        </div>
+                            <form action="">
+
+                            <div class="inputbox">
+                                <input type="text" placeholder="name" />
+                                <input type="email" placeholder="email" />
+
+
+                            </div>
+
+                            <div class="inputbox">
+                                <input type="number" placeholder="number" />
+                                <input type="text" placeholder="subject" />
+
+
+                            </div>
+                         <textarea placeholder="message" id="" name="" cols="10" rows="10"></textarea>
+                         <input type="submit" class="btn" value="send message" />
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+              
+
+               <!-- Footer  sectioin -->
+
+              <section class="footer">
+                  <div class="footer_content">
+
+                      <div class="box">
+                          <h3>about us</h3>
+                          <p>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words
+                          </p>
+                      </div>
+
+                      <div class="box">
+                        <h3>branch location</h3>
+                        <a href="#">India</a>
+                        <a href="#">usa</a>
+                        <a href="#">japan</a>
+                        <a href="#">france</a>
+
+
+
+
+                    </div>
+
+                    <div class="box">
+                        <h3>quick linkes</h3>
+                        <a href="#">home</a>
+                        <a href="#">book</a>
+                        <a href="#">packages</a>
+                        <a href="#">services</a>
+                        <a href="#">gallery</a>
+                        <a href="#">review</a>
+                        <a href="#">contact</a>
+
+                    </div>
+
+                    
+                    <div class="box">
+                        <h3>follow us</h3>
+                        <a href="https://www.facebook.com/profile.php?id=100015927995666">facebook</a>
+                        <a href="www.linkedin.com/in/õmar-ģ-èlkareem-191147172">linked in</a>
+                        <a href="https://www.instagram.com/omargadelkareem/">instagram</a>
+                        <a href="https://twitter.com/OGadelkareem">twitter</a>
+                        <a href="https://github.com/omarGadElkareem98">github</a>
+                        
+
+                    </div>
+
+                
+
+
+                  </div>
+
+                  <h1 class="credit">
+                 created by <span>
+                     <a href="https://www.facebook.com/profile.php?id=100015927995666">
+                    Omar Gad Elkareem Elsayed
+                    
+                    </a>
+                 |   all right reserverd
+                 </span>
+                  </h1>
+              </section>
+
+
+
+               
+
+        
+
+
+                <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
